@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        body{
+            min-height: 100vh;
+        }
+  .container{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr; 
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-gap: 15px; 
+            height: 100vh;
+            border: 1px solid black;
+            
+        }
+        .container div{
+           
+            font-size: 20px;
+        }
+          .header{
+            grid-column: 1/4;
+            grid-row: 1;
+            height: 100px;
+            background-color: blue;
+            text-align: center;
+          }
+
+       
+     
+        
+        .text{
+            grid-column: 2/4;
+            grid-row: 3;
+            height: 250px;
+            background-color: blue;
+        }
+
+        .icerik{
+            grid-column: 2/4;
+            grid-row: 4;
+            height: 150px;
+            background-color: green;
+        }
+        .sidebar{
+            grid-column: 1/2;
+            grid-row: 3/5;
+            background-color: blue;
+        }
+
+        .footer{
+            grid-column: 1/4;
+            grid-row: 5;
+            height: 50px;
+            margin-bottom: 10px;
+            background-color: green;
+        }
+
+    </style>
+
+
+</head>
+<body>
+
+    
+    <div class="container">
+        <div class="header">
+            <h1>Lorem, ipsum.</h1>
+        </div>
+        
+        <div class="text"></div>
+
+        <div class="sidebar"></div>
+
+        <div class="icerik"></div>
+
+        <div class="footer"></div>
+        </div>
+        
+
+
+    
+</body>
+</html>
